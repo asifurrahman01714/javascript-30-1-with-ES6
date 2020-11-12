@@ -1,0 +1,33 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: url(venue.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+button{
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  margin-right: 30px;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.animation{
+  background: black;
+  color: red;
+}
